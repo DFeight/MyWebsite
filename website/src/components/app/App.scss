@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-columns: 33% auto;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+}
+
+.sidebar {
+  grid-column: 1 / span 0;
+  grid-row: 1 / span 2;
+  background-color: green;
+  min-width: 550px;
+  color: white;
+}
+
+.about {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 0;
+  background-color: blue;
+  color: white;
+}
+
+.interactive {
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 0;
+  background-color: red;
+  color: white;
+}
