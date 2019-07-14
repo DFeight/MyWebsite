@@ -16,14 +16,14 @@ body {
 .sidebar {
   grid-column: 1 / span 0;
   grid-row: 1 / span 2;
-  background-color: green;
+  background: linear-gradient(45deg, #12032b, #6c10ff);
   color: white;
 }
 
 .about {
   grid-column: 2 / span 2;
   grid-row: 2 / span 0;
-  background-color: blue;
+  background-color: #ff8902;
   color: white;
 }
 
@@ -33,9 +33,6 @@ body {
 
 .interactive {
   grid-column: 2 / span 2;
-  background-color: yellow;
-}
-
-.interactive:hover {
-  box-shadow: inset 0 0 10px 0.5em black;
+  height: 100%;
+  overflow-y: hidden;
 }
