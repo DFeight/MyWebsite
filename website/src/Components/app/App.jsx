@@ -67,11 +67,13 @@ function App() {
           startState="maximised"
           commands={{
             linkedin: () => openModal(linkedin),
-            github: () => openModal(github)
+            github: () => openModal(github),
+            resume: () => openModal(Pdf)
           }}
           descriptions={{
             linkedin: 'Visit my LinkedIn profile',
             github: 'Visit my GitHub page or lack thereof',
+            resume: 'View my current resume',
             help: 'List all of the commands',
             clear: 'Clear the terminal',
             show: 'Show the welcome message'
